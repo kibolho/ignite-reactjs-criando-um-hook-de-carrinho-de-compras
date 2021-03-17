@@ -27,7 +27,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "server": "json-server server.json -p 3333"
+    "server": "json-server server.json -p 3333",
+    "test-1": "yarn test -t 'useCart Hook should not be able to increase a product amount when running out of stock'",
+    "test-2": "yarn test -t 'useCart Hook should be able to remove a product'"
   },
   "browserslist": {
     "production": [
